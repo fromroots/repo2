@@ -2,7 +2,7 @@
   "name": "fromroot",
   "version": "1.0.0",
   "description": "nodejs_assignment",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
