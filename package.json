@@ -1,0 +1,19 @@
+{
+  "name": "fromroot",
+  "version": "1.0.0",
+  "description": "nodejs_assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fromroots/repo2.git"
+  },
+  "author": "SaurabhSharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fromroots/repo2/issues"
+  },
+  "homepage": "https://github.com/fromroots/repo2#readme"
+}
