@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fromroots/repo2/issues"
   },
-  "homepage": "https://github.com/fromroots/repo2#readme"
+  "homepage": "https://github.com/fromroots/repo2#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
 }

@@ -3,9 +3,10 @@ const fs = require('fs');
 var index = fs.readFileSync('index.html');
 const port = process.env.PORT || 80;
 const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
-  res.end(index);
+  // res.statusCode = 200;
+  // res.setHeader('Content-Type', 'text/html');
+  // res.end(index);
+  	req.addListener('end', () -> file.serve(req, res)).resume();
 });
 server.listen(port, () => {
   console.log(`Server running at http://${port}/`);
